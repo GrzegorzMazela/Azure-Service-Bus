@@ -29,7 +29,7 @@ namespace ServiceBus.WebClient
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            const string connectionString = "Endpoint=sb://openskygmazela.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=cGmtd62W3kpblyLcMA0Uu6bDe2P6LM3EPqzd117uWjw=";
+            const string connectionString = "XXXX";
             const string topicName = "licencetopic";
             const string subscriptionName = "create";
 

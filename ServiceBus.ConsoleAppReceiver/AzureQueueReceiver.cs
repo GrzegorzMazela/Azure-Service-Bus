@@ -9,7 +9,7 @@ namespace ServiceBus.ConsoleAppReceiver
 {
     public class AzureQueueReceiver
     {
-        private const string ServiceBusConnectionString = "Endpoint=sb://openskygmazela.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=cGmtd62W3kpblyLcMA0Uu6bDe2P6LM3EPqzd117uWjw=";
+        private const string ServiceBusConnectionString = "XXXX";
         private static IQueueClient queueClient { get; set; }
         private string queueName { get; set; }
 

@@ -9,7 +9,7 @@ namespace ServiceBus.AuditsService
     {
         static void Main(string[] args)
         {
-            const string connectionString = "Endpoint=sb://openskygmazela.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=cGmtd62W3kpblyLcMA0Uu6bDe2P6LM3EPqzd117uWjw=";
+            const string connectionString = "XXXX";
             const string topicName = "licencetopic";
             const string subscriptionName = "audit";
             var subscriptionClient = new SubscriptionClient(connectionString, topicName, subscriptionName);

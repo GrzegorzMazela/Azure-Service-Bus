@@ -7,7 +7,7 @@ namespace ServiceBus.ConsoleAppSender
 {
     public class AzureQueueSender
     {
-        private const string ServiceBusConnectionString = "Endpoint=sb://openskygmazela.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=cGmtd62W3kpblyLcMA0Uu6bDe2P6LM3EPqzd117uWjw=";
+        private const string ServiceBusConnectionString = "XXXXX";
         private static IQueueClient queueClient { get; set; }
         private string queueName { get; set; }
 

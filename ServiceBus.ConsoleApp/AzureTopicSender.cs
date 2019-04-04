@@ -8,7 +8,7 @@ namespace ServiceBus.ConsoleAppSender
 {
     public class AzureTopicSender
     {
-        private const string ServiceBusConnectionString = "Endpoint=sb://openskygmazela.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=cGmtd62W3kpblyLcMA0Uu6bDe2P6LM3EPqzd117uWjw=";
+        private const string ServiceBusConnectionString = "XXXX";
 
         private ITopicClient topicClient { get; set; }
         private string topicName { get; set; }
